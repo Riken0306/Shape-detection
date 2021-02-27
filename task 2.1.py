@@ -24,7 +24,7 @@ class Shape:
 
   def print(shape):
     print("ShapeType:",shape.name)
-    print("ShapeColor:",shape.color)
+    print("ShapeColor[BGR]:",shape.color)
     print("ShapeCentroid:",shape.center)
     print("ShapeArea:",shape.area)
 
